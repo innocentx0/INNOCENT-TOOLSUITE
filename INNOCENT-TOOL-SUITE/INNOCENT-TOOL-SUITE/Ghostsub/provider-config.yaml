@@ -1,0 +1,14 @@
+discord:
+  - id: "crawl"
+    discord_channel: "$DISCORD_CHANNEL"
+    discord_username: "$DISCORD_USERNAME"
+    discord_format: "{{data}}"
+    discord_webhook_url: "$DISCORD_WEBHOOK_URL"
+# custom:
+#   - id: webhook
+#     custom_webhook_url: PUT YOUR INTERACTSH WEBSERVER
+#     custom_method: GET
+#     custom_format: '{{data}}'
+#     custom_headers:
+#       Content-Type: application/json
+      
